@@ -6,18 +6,14 @@
  *
  * @c: character to print
  *
- * Return: 0 on success and 1 on fail
+ * Return: 1 if it is, 0 otherwise
  */
 
 int _isdigit(int c)
 {
-int i = _isdigit(c);
-if (i > 0)
+if ((c >= 48) && (c <= 57))
 {
 return (1);
 }
-else
-{
 return (0);
-}
 }
