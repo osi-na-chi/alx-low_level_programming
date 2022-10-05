@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *argc - counts the arguments
- *argv - pointer to a string of arrays
- *
+ *main - Entry point
+ *argc: counts the arguments
+ *argv: pointer to a string of arrays
+ *Return: 0
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
