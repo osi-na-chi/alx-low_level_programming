@@ -2,13 +2,11 @@
 
 /**
  *main - prints the name of the file it was compiled from
- *@argc: counts arguments
- *@argv: points to set of arrays
  *Return: 0
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(void)
 {
-printf("%s\n", argv[0]);
+printf("%s\n", __FILE__);
 return (0);
 }
